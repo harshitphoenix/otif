@@ -18,8 +18,8 @@ export default function Home() {
 
       <Layout>
         <MainCard />
-        {Content.map((obj) => (
-          <Card title={obj.title} content={obj.content} right={obj.right} />
+        {Content.map((obj,index) => (
+          <Card key={index} title={obj.title} content={obj.content} right={obj.right} />
         ))}
       </Layout>
     </div>
