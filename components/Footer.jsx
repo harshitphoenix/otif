@@ -93,7 +93,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className='col-3'>
-            <form class='d-flex'>
+            <form className='d-flex'>
               <input
                 class='form-control me-2'
                 type='search'
