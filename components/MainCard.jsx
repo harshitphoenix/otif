@@ -3,10 +3,11 @@ import styles from "./MainCard.module.css";
 const MainCard = (props) => {
   return (
     <div className={styles.container}>
-      <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+      <div className={styles.navContainer}>
+        <nav className={`${styles.navContainer} navbar navbar-expand-lg`}>
         <div className='container-fluid'>
           <a className='navbar-brand' href='#'>
-            Navbar
+            {/* Navbar */}
           </a>
 
           <button
@@ -22,19 +23,9 @@ const MainCard = (props) => {
           </button>
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
-              <li className='nav-item'>
-                <a className='nav-link active' aria-current='page' href='#'>
-                  Home
-                </a>
-              </li>
-              <li className='nav-item'>
-                <a className='nav-link' href='#'>
-                  Link
-                </a>
-              </li>
               <li className='nav-item dropdown'>
                 <a
-                  className='nav-link dropdown-toggle'
+                  className={`${styles.navItem} nav-link dropdown-toggle`}
                   href='#'
                   id='navbarDropdown'
                   role='button'
@@ -64,31 +55,110 @@ const MainCard = (props) => {
                   </li>
                 </ul>
               </li>
-              <li className='nav-item'>
+              <li className='nav-item dropdown'>
                 <a
-                  className='nav-link disabled'
+                  className={`${styles.navItem} nav-link dropdown-toggle`}
                   href='#'
-                //   tabindex='-1'
-                  aria-disabled='true'
+                  id='navbarDropdown'
+                  role='button'
+                  data-bs-toggle='dropdown'
+                  aria-expanded='false'
                 >
-                  Disabled
+                  Use Cases
                 </a>
+                <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
+                  <li>
+                    <a className={` dropdown-item`} href='#'>
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a className='dropdown-item' href='#'>
+                      Another action
+                    </a>
+                  </li>
+                  <li>
+                    <hr className='dropdown-divider' />
+                  </li>
+                  <li>
+                    <a className='dropdown-item' href='#'>
+                      Something else here
+                    </a>
+                  </li>
+                </ul>
               </li>
+              <li className='nav-item dropdown'>
+                <a
+                  className={`${styles.navItem} nav-link dropdown-toggle`}
+                  href='#'
+                  id='navbarDropdown'
+                  role='button'
+                  data-bs-toggle='dropdown'
+                  aria-expanded='false'
+                >
+                  Resources
+                </a>
+                <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
+                  <li>
+                    <a className='dropdown-item' href='#'>
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a className='dropdown-item' href='#'>
+                      Another action
+                    </a>
+                  </li>
+                  <li>
+                    <hr className='dropdown-divider' />
+                  </li>
+                  <li>
+                    <a className='dropdown-item' href='#'>
+                      Something else here
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li className='nav-item dropdown'>
+                <a
+                  className={`${styles.navItem} nav-link dropdown-toggle`}
+                  href='#'
+                  id='navbarDropdown'
+                  role='button'
+                  data-bs-toggle='dropdown'
+                  aria-expanded='false'
+                >
+                  Company
+                </a>
+                <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
+                  <li>
+                    <a className='dropdown-item' href='#'>
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a className='dropdown-item' href='#'>
+                      Another action
+                    </a>
+                  </li>
+                  <li>
+                    <hr className='dropdown-divider' />
+                  </li>
+                  <li>
+                    <a className='dropdown-item' href='#'>
+                      Something else here
+                    </a>
+                  </li>
+                </ul>
+              </li>
+           
             </ul>
-            <form className='d-flex'>
-              <input
-                className='form-control me-2'
-                type='search'
-                placeholder='Search'
-                aria-label='Search'
-              />
-              <button className='btn btn-outline-success' type='submit'>
-                Search
-              </button>
-            </form>
+            
           </div>
         </div>
       </nav>
+      </div>
+      
       <div className={`row ${styles.card}`}>
         <div className='col-5'>
           <p className={styles.topText}>{props.topText}</p>

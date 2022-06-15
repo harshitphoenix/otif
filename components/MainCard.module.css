@@ -1,6 +1,6 @@
 .image {
-  height: 500px;
-  width: 500px;
+  height: 700px;
+  width: 700px;
 }
 .topText {
   font-size: 10px;
@@ -29,4 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.navItem{
+ color: #fff;
 }
