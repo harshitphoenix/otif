@@ -20,9 +20,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=''>
+      <div className={styles.footerBottom}>
         <div>
-          <h1>OTIF</h1>
+          <img src="./footerLogo.png"/>
         </div>
         <div className='row'>
           <div className='col-2'>
