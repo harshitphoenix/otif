@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <MainCard title={Main.title} topText={Main.topText} content={Main.content} button={Main.button}/>
+        <MainCard image={Main.image} title={Main.title} topText={Main.topText} content={Main.content} button={Main.button}/>
         {Content.map((obj,index) => (
           <Card key={index} title={obj.title} content={obj.content} right={obj.right} image={obj.imageSrc} />
         ))}

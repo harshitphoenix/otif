@@ -168,7 +168,7 @@ const MainCard = (props) => {
           </p>
           <button className={styles.button}>{props.button}</button>
         </div>
-        <img src='./rectangle.png' className={`col-4 ${styles.image}`} />
+        <img src={props.image} className={`col-4 ${styles.image}`} />
       </div>
     </div>
   );
