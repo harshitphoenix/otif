@@ -1,0 +1,21 @@
+.title {
+  font-size: 40px;
+  color: #4c38ee;
+}
+.content {
+  font-size: 18px;
+}
+.image {
+  width: 300px;
+  height: 250px;
+}
+.right {
+  flex-direction: row;
+}
+.left {
+  flex-direction: row-reverse;
+}
+.btn{
+  background-color: #fff;
+  width: 70px;
+}

@@ -1,0 +1,31 @@
+.footerTop{
+    background-color: #4C38EE;
+    color: #fff;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 10px solid #000;
+}
+.footerItem{
+    list-style-type: none;
+    list-style: none;
+    font-size: 14px;
+}
+.button{
+    background-color: #4C38EE;
+    border-radius: 5px;
+    width: auto;
+    border: 2px solid #fff;
+    height: 60px;
+    color: #fff;
+}
+.heading{
+    font-size: 40px;
+}
+.topContent{
+    font-size: 18px;
+}
+.bottomHeading{
+    color: #4C38EE;
+}
