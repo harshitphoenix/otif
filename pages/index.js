@@ -5,9 +5,8 @@ import Layout from "../components/Layout";
 import MainCard from "../components/MainCard";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
-import { Content } from "../data/globalSupply.json";
+import { Content, Main } from "../data/globalSupply.json";
 export default function Home() {
-  console.log(Content.Content);
   return (
     <div className={styles.container}>
       <Head>
@@ -17,7 +16,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <MainCard />
+        <MainCard title={Main.title} topText={Main.topText} content={Main.content} button={Main.button}/>
         {Content.map((obj,index) => (
           <Card key={index} title={obj.title} content={obj.content} right={obj.right} image={obj.imageSrc} />
         ))}

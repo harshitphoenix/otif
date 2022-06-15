@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./MainCard.module.css";
-const MainCard = () => {
+const MainCard = (props) => {
   return (
     <div className={styles.container}>
       <nav className='navbar navbar-expand-lg navbar-light bg-light'>
@@ -91,15 +91,12 @@ const MainCard = () => {
       </nav>
       <div className={`row ${styles.card}`}>
         <div className='col-5'>
-          <p className={styles.topText}>OTIF PLATFORM</p>
-          <p className={styles.heading}>OPTIMIZATION OF GLOBAL SUPPLY CHAIN</p>
+          <p className={styles.topText}>{props.topText}</p>
+          <p className={styles.heading}>{props.title}</p>
           <p className={styles.content}>
-            OTIF is the next dimension of consolidation, orchestration, and
-            optimization of the global supply chain networks, integrating
-            different production enterprises and logistics providers for your
-            convenience.
+            {props.content}
           </p>
-          <button className={styles.button}>START</button>
+          <button className={styles.button}>{props.button}</button>
         </div>
         <img src='./rectangle.png' className={`col-4 ${styles.image}`} />
       </div>

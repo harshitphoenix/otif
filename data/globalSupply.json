@@ -18,5 +18,11 @@
             "imageSrc":"./GS3.png",
             "right":true
         }
-    ]
+    ],
+    "Main":{
+        "topText":"OTIF PLATFORM",
+        "title":"OPTIMIZATION OF GLOBAL SUPPLY CHAIN",
+        "content":"OTIF is the next dimension of consolidation, orchestration, and optimization of the global supply chain networks, integrating different production enterprises and logistics providers for your convenience.",
+        "button":"START"
+    }
 }
