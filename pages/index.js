@@ -19,7 +19,7 @@ export default function Home() {
       <Layout>
         <MainCard />
         {Content.map((obj,index) => (
-          <Card key={index} title={obj.title} content={obj.content} right={obj.right} />
+          <Card key={index} title={obj.title} content={obj.content} right={obj.right} image={obj.imageSrc} />
         ))}
       </Layout>
     </div>

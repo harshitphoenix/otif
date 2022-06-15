@@ -1,14 +1,15 @@
 import React from "react";
 import styles from "./ContentCard.module.css";
 const Card = (props) => {
+  console.log(props)
   return (
-    <div style={{alignSelf:'center'}} className={`row ${props.right?styles.right:styles.left}`}>
-      <div className="col-4">
+    <div className={`${styles.card} ${props.right?styles.right:styles.left}`}>
+      <div className={styles.contentCard} >
         <p className={`${styles.title}`}>{props.title}</p>
         <p className={styles.content}>{props.content}</p>
       </div>
-      <div className="col-4">
-        <img src={'./GS1.png'} className={styles.image} />
+      <div  >
+        <img src={props.image} className={styles.image} />
       </div>
     </div>
   );

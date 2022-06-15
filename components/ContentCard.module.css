@@ -15,7 +15,12 @@
 .left {
   flex-direction: row-reverse;
 }
-.btn{
-  background-color: #fff;
-  width: 70px;
+.card{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contentCard{
+  max-width: 600px;
 }
