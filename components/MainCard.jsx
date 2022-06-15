@@ -89,8 +89,8 @@ const MainCard = () => {
           </div>
         </div>
       </nav>
-      <div className='row'>
-        <div className='col-4'>
+      <div className={`row ${styles.card}`}>
+        <div className='col-5'>
           <p className={styles.topText}>OTIF PLATFORM</p>
           <p className={styles.heading}>OPTIMIZATION OF GLOBAL SUPPLY CHAIN</p>
           <p className={styles.content}>

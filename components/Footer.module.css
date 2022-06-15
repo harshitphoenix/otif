@@ -2,10 +2,10 @@
     background-color: #4C38EE;
     color: #fff;
     padding: 30px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    border: 10px solid #000;
+    border: 1px solid #000;
 }
 .footerItem{
     list-style-type: none;
