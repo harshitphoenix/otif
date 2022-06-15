@@ -3,10 +3,10 @@ import styles from "./Footer.module.css";
 const Footer = () => {
   return (
     <>
-      <div className={`${styles.footerTop}`}>
+      <div className={` ${styles.footerTop}`}>
         <div className='container'>
           <div className={`row`}>
-            <div className='col'>
+            <div className='col-9'>
               <p className={styles.heading}>
                 If you Have any Questions Contact Us.
               </p>
@@ -16,7 +16,7 @@ const Footer = () => {
                 operates on the internet or in person. Our services includes
               </p>
             </div>
-            <button className={styles.button}>Request a Quote </button>
+            <button className={`col-4 ${styles.button}`}>Request a Quote </button>
           </div>
         </div>
       </div>
