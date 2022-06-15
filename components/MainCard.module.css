@@ -17,10 +17,11 @@
 .button {
   color: #291ef6;
   background-color: #fff;
-  height: 50px;
+  height: 45px;
   width: max-content;
   border-radius: 5px;
   border-width: 0;
+  padding: 0 10px 0 10px;
 }
 .container {
     background: linear-gradient(122.29deg, #4C38EE 40.13%, rgba(76, 56, 238, 0.3) 133.77%)
