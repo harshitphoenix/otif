@@ -1,0 +1,40 @@
+{
+    "Content":[
+        {
+            "title":"Worldwide consolidation network ",
+            "content":"Load your key SKUs onto OTIF’s worldwide consolidation network where technology adds visibility and control to every handoff.",
+            "imageSrc":"./GS1.png",
+            "right":true
+        },
+        {
+            "title":"Only Pay for The Space You Use",
+            "content":"Don’t wait to fill a full container. Save time and money now. Only pay for the space you need and never lose track of your cargo thanks to our extensive less-than-truckload (LTL) network managed by OTIF.",
+            "imageSrc":"./GS2.png",
+            "right":true
+        },
+        {
+            "title":"Secure & Reliable",
+            "content":"With thousand of certified suppliers on the OTIF Platform, you can find a reliable LTL option that will meet your budget, schedule, and expectations.",
+            "imageSrc":"./GS3.png",
+            "right":false
+        },
+        {
+            "title":"Fast",
+            "content":"Book with fewer worries. Consolidated shipments managed by OTIF are rarely subject to demurrage or additional days.",
+            "imageSrc":"./GS2.png",
+            "right":true
+        },
+        {
+            "title":"Huge variety",
+            "content":"More options make OTIF LTL the right choice for companies of all sizes. With access to more carriers, you can pick the service that’s best for you. Our warehouses, technology, and carrier relationships create higher reliability that will give you leverage in your operation.",
+            "imageSrc":"./GS3.png",
+            "right":false
+        }
+    ],
+    "Main":{
+        "topText":"LESS THAN TRUCK LOAD LTL",
+        "title":"SHIP ANY AMOUNT ANYWHERE",
+        "content":"When it comes to optimizing less-than-truckload freight transportation, we got you. We use our economies of scale, for you to get the best prices and the best experience.  Your products must get through.",
+        "button":"GET STARTED"
+    }
+}

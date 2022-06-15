@@ -1,12 +1,10 @@
 import React from "react";
-
+import styles from "./Navbar.module.css"
 const Navbar = () => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+    <nav className={`${styles.container} navbar navbar-expand-lg`}>
       <div className='container-fluid'>
-        {/* <a class='navbar-brand' href='#'>
-          Navbar
-        </a> */}
+       
         <button
           className='navbar-toggler'
           type='button'

@@ -1,0 +1,28 @@
+{
+    "Content":[
+        {
+            "title":"Automation",
+            "content":"We optimize and automate your entire shipping process. You do not have to look over your shoulder or facilitate any process in the course of shipping.",
+            "imageSrc":"./GS1.png",
+            "right":true
+        },
+        {
+            "title":"Volume",
+            "content":"Regardless of the size, big or very small,  of whatever you are shipping, be it a a small taco, some packages  or an entire  stand we make sure it gets there on time and in full.",
+            "imageSrc":"./GS2.png",
+            "right":false
+        },
+        {
+            "title":"Seamless navigation",
+            "content":"We service all route and handle all types of navigation, inbound or outbound. Our carriers are sufficent for efficient servicing of the entire globe.",
+            "imageSrc":"./GS3.png",
+            "right":true
+        }
+    ],
+    "Main":{
+        "topText":"EXPRESS SHIPPING",
+        "title":"A PLATFORM DESIGNED FOR SHIPPING PRODUCTS",
+        "content":"We bring together all the express shipping companies. OTIF facilitates logistics for your company, either brick, mortar or your ecommerce store.",
+        "button":"GET STARTED"
+    }
+}
